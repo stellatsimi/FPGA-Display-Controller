@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/st7/tops.xst" -ofn "E:/st7/tops.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tops.ucf -p xc3s1000-ft256-4 tops.ngc tops.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o tops_map.ncd tops.ngd tops.pcf 
+par -w -intstyle ise -ol high -t 1 tops_map.ncd tops.ncd tops.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tops.twx tops.ncd -o tops.twr tops.pcf -ucf tops.ucf 
+bitgen -intstyle ise -f tops.ut tops.ncd 

@@ -1,0 +1,31 @@
+(ExpressProject ""
+  (ProjectType "UNKNOWN")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\design1.mnl"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "Simulation Resources"
+    (Folder "In Design")
+    (Folder "Compiled")
+    (Folder "Timed"))
+  (GlobalState
+    (Physical 0)
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\design1.dsn")
+      (Path "Design Resources" ".\design1.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\design1.dsn" "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Document
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 160 795 -4 -30 0 200 0 551"))
+      (Tab 0))))

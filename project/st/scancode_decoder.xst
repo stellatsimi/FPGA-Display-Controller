@@ -1,0 +1,5 @@
+set -tmpdir "C:/Documents and Settings/Administrator/Desktop/st/xst/projnav.tmp"
+set -xsthdpdir "C:/Documents and Settings/Administrator/Desktop/st/xst"
+elaborate
+-ifn scancode_decoder.prj
+-ifmt mixed

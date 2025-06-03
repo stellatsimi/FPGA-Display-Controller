@@ -1,0 +1,6 @@
+MO pixel_clk NULL pixel_clk.v vlg47/pixel__clk.bin 1727099556
+MO kbd_protocol NULL kbd_protocol.v vlg7A/kbd__protocol.bin 1727099556
+MO scancode_decoder NULL scancode_decoder.v vlg11/scancode__decoder.bin 1727099556
+MO color_memory NULL color_memory.v vlg63/color__memory.bin 1727099556
+MO top NULL top.v vlg6F/top.bin 1727099556
+MO vgasync NULL vgasync.v vlg4B/vgasync.bin 1727099556

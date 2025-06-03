@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Documents and Settings\stella_test_2\multi2.ncd
+OUTFILE=C:\Documents and Settings\stella_test_2\multi2.bit
+FAMILY=Spartan3
+PART=xc3s1000-4ft256
+WORKINGDIR=C:\Documents and Settings\stella_test_2
+LICENSE=WebPack
+USER_INFO=174694076_174171164_0_313

@@ -1,0 +1,4 @@
+verilog work "singleseconds.v"
+verilog work "cnt25.v"
+verilog work "bin_2_7.v"
+verilog work "tops.v"

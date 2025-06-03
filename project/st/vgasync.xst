@@ -1,0 +1,5 @@
+set -tmpdir "E:/st/xst/projnav.tmp"
+set -xsthdpdir "E:/st/xst"
+elaborate
+-ifn vgasync.prj
+-ifmt mixed

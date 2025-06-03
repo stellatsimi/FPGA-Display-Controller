@@ -1,0 +1,22 @@
+C:/Users/my_pc/Documents/ecad-ergasies/ergasia5/lab5_sychronous/counter8.v {1 {vlog -work work C:/Users/my_pc/Documents/ecad-ergasies/ergasia5/lab5_sychronous/counter8.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module counter_8bit
+
+Top level modules:
+	counter_8bit
+
+} {} {}} C:/Users/my_pc/Documents/ecad-ergasies/ergasia5/lab5_sychronous/counter.v {1 {vlog -work work C:/Users/my_pc/Documents/ecad-ergasies/ergasia5/lab5_sychronous/counter.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/my_pc/Documents/ecad-ergasies/ergasia5/lab5_sychronous/test.v {1 {vlog -work work C:/Users/my_pc/Documents/ecad-ergasies/ergasia5/lab5_sychronous/test.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

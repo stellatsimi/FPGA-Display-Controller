@@ -1,0 +1,6 @@
+verilog work "vgasync.v"
+verilog work "scancode_decoder.v"
+verilog work "pixel_clk.v"
+verilog work "kbd_protocol.v"
+verilog work "color_memory.v"
+verilog work "top.v"

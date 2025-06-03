@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/st8_1/eight.xst" -ofn "E:/st8_1/eight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eight.ucf -p xc3s1000-ft256-4 eight.ngc eight.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o eight_map.ncd eight.ngd eight.pcf 
+par -w -intstyle ise -ol high -t 1 eight_map.ncd eight.ncd eight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml eight.twx eight.ncd -o eight.twr eight.pcf -ucf eight.ucf 
+bitgen -intstyle ise -f eight.ut eight.ncd 
