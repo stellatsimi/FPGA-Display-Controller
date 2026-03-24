@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "E:/st7/secondcounter.xst" -ofn "E:/st7/secondcounter.syr" 
